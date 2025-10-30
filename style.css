@@ -16,7 +16,7 @@ main {
     padding: 20px;
     color: white;
     b, i, u {
-        color: rgb(237, 199, 7);
+       color: rgb(237, 199, 7);
         
     
     }
@@ -29,6 +29,7 @@ main {
 section {
     text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 footer {
     background-color: darkgray;
