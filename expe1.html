@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <style>
+  /* General styles for screen view (optional, for visual representation) */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+  }
+  .a4-content {
+    background-color: white;
+    width: 210mm;  /* A4 width */
+    height: 297mm; /* A4 height */
+    display: block;
+    margin: 10mm auto; /* Center on screen and add some margin */
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5); /* Add shadow to look like a page */
+    box-sizing: border-box;
+    padding: 20mm; /* Inner padding for content */
+  }
+
+  /* Print-specific styles using @media print */
+  @media print {
+    @page {
+      size: A4 portrait; /* Set the page size to A4 and orientation to portrait */
+      margin: 0; /* Remove default browser print margins */
+    }
+    body, .a4-content {
+      margin: 0;
+      padding: 0;
+      box-shadow: none;
+      width: auto; /* Let the print media handle the width */
+      height: auto; /* Let the print media handle the height */
+    }
+    /* Optional: use page-break-after to force new pages for multi-page documents */
+    .page-break {
+      display: block;
+      page-break-after: always;
+    }
+  }
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<body class="a4-content" >
+    <header style="border-style: dashed;"><h1><center><b>EXPERIMENT:01</h1></b></center></header>
+ <p><b><center>Create a Web Page for Course Curriculum: Use of Headings, Paragraphs, Bold, Italic, Underline, and Special Characters, Ordered List, Unordered List, Description List, Nested List, and Mixed Lists.
+</center></b></p>
+<h3><b>Objectives:</b></h3>
+<ol>
+    <li>To design a simple course curriculum webpage using HTML.</li>
+<li>To practice the use of basic text formatting tags (bold, italic, underline, special characters).</li>
+<li>To learn the implementation of ordered, unordered, description, nested, and mixed lists.</li>
+<li>To understand webpage content structuring using headings and paragraphs.</li>
+</ol> <hr> 
+<h3><b>Tools Required:</b></h3>
+<ul>
+ <li>Computer / Laptop with any OS</li>
+ <li>Text Editor (VS Code, Sublime Text, Notepad++)</li>
+ <li>Web Browser (Chrome, Edge, Firefox)</li>
+ </ul><hr>
+<h3><b>Theory:</b></h3>
+<ol>
+<li>Headings (h1 to h6): Used to display titles and subheadings in different sizes.</li>
+<li>Paragraphs (p): Defines blocks of text content.</li>
+<li> Formatting Tags:</li>
+<ul>
+<li> (b) for bold text </li>
+<li> (i) for italic text </li>
+</li> (u) for <u>underlined text</u> </li>
+<li> Special characters are displayed using HTML entities (e.g., &copy;, &lt;, &gt;).</li>
+</ul>
+<li>Lists:</li>
+<ul>
+<li> Ordered List (ol): Numbered items.</li>
+<li> Unordered List (ul): Bulleted items. </li>
+<li> Description List (dl): Term and description pairs. </li>
+<li> Nested List: A list inside another list. </li>
+<li> Mixed List: Combination of ordered, unordered, and nested lists. </li>
+</ul>
+</ol><hr>
+<h3><b>Outcome:</h3></b>
+<ul>
+<li>Successfully designed a basic course curriculum webpage.</li>
+<li>Implemented text formatting and different types of lists in HTML.</li>
+<li>Learned structuring and organizing content on a webpage.</li>
+</ul><hr>
+<h3><b>Code implementation:</h3></b>
+<footer style="text-align: right;">page no: 1</footer>
+
+ <!-- <header style="border-style: dashed;"><h1><center><b>EXPERIMENT:02</h1></b></center></header>
+ <p><b><center>Create a Web Page for a News Website with Embedded YouTube Video, Hyperlinks, and Navigation Structure,
+and Insert Multimedia in a Webpage.</center></b></p>
+<h3><b>Objectives:</b></h3>
+<ol>
+    <li>To design a simple news website homepage using HTML and CSS</li>
+<li>To learn how to embed YouTube videos into a webpage.</li>
+<li>To implement hyperlinks and navigation menus for easy browsing.</li>
+<li>To insert multimedia (images, videos, audio) in a webpage.</li>
+</ol> <hr>
+<h3><b>Tools Required:</b></h3>
+<ul>
+ <li>Computer / Laptop with any OS</li>
+ <li>Text Editor (VS Code, Sublime Text, Notepad++)</li>
+ <li>Web Browser (Chrome, Edge, Firefox)</li>
+ <li>Internet Connection(for embedding YouTube videos)</li>
+ </ul><hr>
+ <h3><b>Theory:</b></h3>
+<ol>
+<li>1. Hyperlinks (a tag):
+Hyperlinks allow navigation between pages or websites. Example:
+"<a href="https://www.bbc.com">"Visit BBC News</a></li>
+<li> Navigation Structure:
+A (nav) element groups navigation links for better structure.</li>
+<ul>
+<li> (b) for bold text </li>
+<li> (i) for italic text </li>
+</li> (u) for <u>underlined text</u> </li>
+<li> Special characters are displayed using HTML entities (e.g., &copy;, &lt;, &gt;).</li>
+</ul>
+<li>Lists:</li>
+<ul>
+<li> Ordered List (ol): Numbered items.</li>
+<li> Unordered List (ul): Bulleted items. </li>
+<li> Description List (dl): Term and description pairs. </li>
+<li> Nested List: A list inside another list. </li>
+<li> Mixed List: Combination of ordered, unordered, and nested lists. </li>
+</ul>
+</ol><hr>
+<h3><b>Outcome:</h3></b>
+<ul>
+<li>Successfully designed a basic course curriculum webpage.</li>
+<li>Implemented text formatting and different types of lists in HTML.</li>
+<li>Learned structuring and organizing content on a webpage.</li>
+</ul><hr>
+<h3><b>Code implementation:</h3></b>
+<footer style="text-align: right;">page no: 1</footer> -->
+ <!-- <header style="border-style: dashed;"><h1><center><b>EXPERIMENT:02</h1></b></center></header> -->
+<!-- <h3><b>Objectives:</b></h3>
+<ol>
+    <li>To design a simple news website homepage using HTML and CSS</li>
+<li>To learn how to embed YouTube videos into a webpage.</li>
+<li>To implement hyperlinks and navigation menus for easy browsing.</li>
+<li>To insert multimedia (images, videos, audio) in a webpage.</li>
+</ol> <hr>
+<h3><b>Tools Required:</b></h3>
+<ul>
+ <li>Computer / Laptop with any OS</li>
+ <li>Text Editor (VS Code, Sublime Text, Notepad++)</li>
+ <li>Web Browser (Chrome, Edge, Firefox)</li>
+ <li>Internet Connection(for embedding YouTube videos)</li>
+ </ul><hr>
+ <h3><b>Theory:</b></h3>
+<ol>
+<li>Headings (h1 to h6): Used to display titles and subheadings in different sizes.</li>
+<li>Paragraphs (p): Defines blocks of text content.</li>
+<li> Formatting Tags:</li>
+<ul>
+<li> (b) for bold text </li>
+<li> (i) for italic text </li>
+</li> (u) for <u>underlined text</u> </li>
+<li> Special characters are displayed using HTML entities (e.g., &copy;, &lt;, &gt;).</li>
+</ul> <p><b><center>Create a Web Page for a News Website with Embedded YouTube Video, Hyperlinks, and Navigation Structure,
+and Insert Multimedia in a Webpage.</center></b></p> -->
+
+</body>
+</html>
