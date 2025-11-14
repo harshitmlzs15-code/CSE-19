@@ -1,0 +1,32 @@
+#box1 {
+    color: chocolate;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(17, 148, 192);
+    border: 2px solid rgb(0, 0, 0);
+    margin: 20px;
+}
+#box2 {
+    color: white;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 99, 71);
+    border: 3px dashed rgb(0, 0, 0);
+    margin: 15px;
+}
+#box3 {
+    color: navy;
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(144, 238, 144);
+    border: 4px dotted rgb(0, 0, 0);
+    margin: 10px;
+}
+#box4 {
+    color: darkgreen;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    background-color: rgb(255, 215, 0);
+    border: 5px double rgb(0, 0, 0);
+    margin: 5px;
+}
