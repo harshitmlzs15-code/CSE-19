@@ -4,33 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>css introduction</title>
-    <link rel="stylesheet" href="harshitt.css">
-<!--     
     <style>
-        /* internal css ka format */
-        p {
-            border: 1px solid red;
-            color: greenyellow;
-            font-size: large;
-            line-height: 1.5;
-            background-color: black;
-            font-family: 'Times New Roman', Times, serif;
-        
-        }
-        h2 {
-            color: red;
-            text-decoration: underline;
-            background-color: burlywood;
-        }
-        h1 {
-            text-align: center;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-    </style> -->
+     p#box1 {
+        color: blue;
+        font-size: 20px;
+     }
+     p#box2 {
+        color: green;       
+        font-size: 18px;
+    }
+    p#box3 {
+        color: red;       
+        font-size: 16px;
+    }
+    p#box4 {
+        color: orange;       
+        font-size: 14px;
+    }
+      p::first-letter {
+      font-size: 3em; /* Makes the first letter 3 times the size of the base font */
+      font-weight: bold; /* Makes the first letter bold */
+      color: #ff0000; /* Changes the color of the first letter to red */
+      /* You can add other styles here like float, line-height, margin, etc. */
+    }
+    </style>
 </head>
 <body>
-    <h1 style = "color: blue;"> introduction to css </h1> 
-    <!-- inline css ka format -->
+    <h1>CSS introduction</h1>
     <p id="box1">CSS stands for Cascading Style Sheets. It is used to style and layout web pages.</p>
     <h2> introduction to java</h2>
     <p id="box2">Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.</p>
