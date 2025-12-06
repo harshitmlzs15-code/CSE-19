@@ -6,6 +6,19 @@
     <title>grid introduction</title>
 </head>
 <style>
+    @media(max-width: 1024px){
+        .grid{
+            grid-template-columns: (2,1fr);
+        }
+    }
+      @media(max-width: 600px){
+        .grid{
+            grid-template-columns: 1fr;
+        }
+    }
+
+
+
    .container{
 display: grid;
 grid-template-columns: repeat(6,1fr);
@@ -60,6 +73,7 @@ width: 100vw;
         text-align: center;
         background-color: rgb(255, 58, 61);
     }
+
 
 </style>
 <body>
