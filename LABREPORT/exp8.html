@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Profile cards</title>
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            margin: 20px;
+            background: rgb(245, 202, 85);
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .card{
+            background: rgb(255, 255, 255);
+            border-radius: 8px;
+            box-shadow: 0 8px 10px rgb(0, 0, 0);
+            width: 220px;
+            text-align: center;
+            padding: 16px;
+        }
+        .avatar{
+            width: 70px;
+            height: 70px;
+            background: rgb(0, 0, 19);
+            color: burlywood;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            margin: 0 auto 12px;
+        }
+        .name{
+            font-weight: bold;
+            font-size: 18px;
+        }
+       .details{
+        font-size: 16px;
+        color: darkblue;
+       }
+    </style>
+
+</head>
+<body>
+    <h2 style="text-align: center;">Student Profile Cards</h2>
+    <div class="container">
+        <div class="card"> 
+            <div class="avatar">HY</div>
+             <div class="name">Harshit Yadav</div>
+              <div class="details">B.Tech-CSE</div>
+              <div class="details">2025B01010733</div>
+               <div class="details">1st year</div>
+        </div>
+    
+        <div class="card"> 
+            <div class="avatar">SG</div>
+             <div class="name">Srajan Gupta</div>
+              <div class="details">B.Tech-AIML</div>
+              <div class="details">2025B15310100</div>
+               <div class="details">1st year</div>
+        
+    </div>
+        <div class="card"> 
+            <div class="avatar">KG</div>
+             <div class="name">Kushal Gupta</div>
+              <div class="details">B.A</div>
+              <div class="details">2024B01010XX</div>
+               <div class="details">2nd year</div>
+        </div>
+    </div>
+    <footer style="text-align: center; margin-top: 20px;">
+        <p>&copy;MADE BY: HARSHIT YADAV {2025B01010733}</p>
+    </footer>
+</body>
+</html>
